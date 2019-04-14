@@ -1,19 +1,19 @@
-.page{
+.page {
 
     width: 100vw;
     height: 100vh;
-    background-color:white;
+    background-color: white;
 
 
 }
 
-.vcard{
+.vcard {
 
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     display: grid;
-    grid-template-columns: 30% 60%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 30% 60% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: auto;
     position: relative;
     top: 50%;
@@ -21,62 +21,90 @@
     border-radius: 15px 50px;
     background-image: url(https://images.unsplash.com/photo-1546395067-d6d1f73bb047?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
 
-    
+
 
 
 }
-.image{
-    
+
+.image {
+
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.img{
+.img {
 
     border: 2px solid white;
     border-radius: 10px 40px;
-  
+
 }
 
-.box1{
+.box1 {
 
     margin-top: 30px;
-
-
-
 }
 
 
-.text1{
+.text1 {
 
     text-align: center;
     color: white;
-    margin-top: 10px;
+    margin-top: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
 }
 
-.text2{
+.text2 {
 
     text-align: center;
     color: white;
-
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 
 .text3{
-
-  text-align: center;
-  color:white;
+    margin-top: 90px;
+    font-size: 80px;
 
 }
 
 .text4{
-text-align: center;
-color: white;
-font-size: 20px;
-
-
+    font-size: 80px; 
 }
 
+.text5{
+    font-size: 80px;
+}
+
+.aboutme{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.email{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px; 
+}
+.tel{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px; 
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 20px; 
+    margin-left: 25px;
+    margin-top: 10px;  
+}
